@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>SmartGuard AI | Mobile Theft Detection & Data Protection System</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Rajdhani:wght@500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              cyber: {
+                bg: '#050a14',
+                card: '#0a1324',
+                cardHover: '#0f1d36',
+                border: '#16284a',
+                cyan: '#00f0ff',
+                cyanGlow: 'rgba(0, 240, 255, 0.25)',
+                red: '#ff1744',
+                redGlow: 'rgba(255, 23, 68, 0.3)',
+                emerald: '#00e676',
+                amber: '#ffab00',
+                purple: '#b388ff'
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              tech: ['Rajdhani', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace']
+            },
+            animation: {
+              'pulse-fast': 'pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'radar': 'radar 2.5s linear infinite',
+              'strobe': 'strobe 0.5s ease-in-out infinite alternate',
+            },
+            keyframes: {
+              radar: {
+                '0%': { transform: 'rotate(0deg)' },
+                '100%': { transform: 'rotate(360deg)' }
+              },
+              strobe: {
+                '0%': { backgroundColor: 'rgba(255, 23, 68, 0.95)' },
+                '100%': { backgroundColor: 'rgba(10, 19, 36, 0.95)' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body class="bg-[#050a14] text-slate-100 min-h-screen selection:bg-cyan-500 selection:text-black overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

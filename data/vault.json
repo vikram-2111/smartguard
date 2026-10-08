@@ -1,0 +1,61 @@
+{
+  "isWiped": false,
+  "wipedAt": null,
+  "wipeMethod": null,
+  "contacts": [
+    {
+      "id": "c1",
+      "name": "Dr. Sarah Connor",
+      "phone": "+1 555-0143",
+      "relationship": "Emergency Contact"
+    },
+    {
+      "id": "c2",
+      "name": "Vikram Patel (Office)",
+      "phone": "+1 555-0199",
+      "relationship": "Work"
+    },
+    {
+      "id": "c3",
+      "name": "Family Group (Encrypted)",
+      "phone": "+1 555-0211",
+      "relationship": "Personal"
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1",
+      "title": "Crypto Hardware Seed Phrase",
+      "content": "ocean quantum velvet eagle orbit matrix neon silver radar echo flame dynamic",
+      "isConfidential": true
+    },
+    {
+      "id": "n2",
+      "title": "Work VPN & 2FA Backup Codes",
+      "content": "8910-4412 | 3390-1124 | 5562-9841",
+      "isConfidential": true
+    },
+    {
+      "id": "n3",
+      "title": "Home Security Gate Passcode",
+      "content": "#8849-B",
+      "isConfidential": false
+    }
+  ],
+  "cards": [
+    {
+      "id": "k1",
+      "bank": "Titanium Wealth Bank",
+      "last4": "4491",
+      "expiry": "09/29",
+      "status": "PROTECTED"
+    },
+    {
+      "id": "k2",
+      "bank": "Global Cyber Card",
+      "last4": "8812",
+      "expiry": "11/30",
+      "status": "PROTECTED"
+    }
+  ]
+}

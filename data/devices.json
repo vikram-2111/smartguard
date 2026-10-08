@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SG-PHONE-01",
+    "name": "Vikram's Galaxy S24 Ultra",
+    "model": "Samsung Galaxy S24 Ultra",
+    "status": "ARMED",
+    "battery": 87,
+    "isCharging": false,
+    "network": "5G Secure Mesh",
+    "lastSeen": "2026-10-08T06:33:40.192Z",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 5,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    },
+    "safeZone": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "radius": 400,
+      "name": "Central Tech Zone"
+    },
+    "sensors": {
+      "accelerometer": {
+        "x": 0.12,
+        "y": 9.81,
+        "z": 0.25,
+        "magnitude": 9.82
+      },
+      "pocketDetection": "IN_POCKET",
+      "motionAlert": false,
+      "chargerAlert": false
+    },
+    "protectionConfig": {
+      "armMotionDetection": true,
+      "armChargerDetection": true,
+      "armPocketDetection": true,
+      "armWrongPinLock": true,
+      "maxPinAttempts": 3,
+      "sirenVolume": 100,
+      "autoStealthPhoto": true
+    },
+    "lockdown": {
+      "isLocked": false,
+      "message": "🚨 SECURITY NOTICE: THIS DEVICE IS REPORTED STOLEN. GPS TRACKING IS TRANSMITTING TO POLICE.",
+      "contactPhone": "+1 (555) 019-9022"
+    },
+    "decoyModeActive": false
+  }
+]

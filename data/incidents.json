@@ -1,0 +1,34 @@
+[
+  {
+    "id": "inc-001",
+    "deviceId": "SG-PHONE-01",
+    "timestamp": "2026-10-08T05:33:40.194Z",
+    "type": "MOTION_SNATCH_SUSPECTED",
+    "severity": "HIGH",
+    "title": "Sudden High Acceleration Vector",
+    "details": "Sudden spike of 2.8G jerk detected while armed. Motion profile analyzed by AI anomaly engine.",
+    "location": {
+      "latitude": 12.9721,
+      "longitude": 77.5952,
+      "address": "Near Kasturba Cross"
+    },
+    "status": "INVESTIGATED",
+    "evidenceId": null
+  },
+  {
+    "id": "inc-002",
+    "deviceId": "SG-PHONE-01",
+    "timestamp": "2026-10-08T06:03:40.194Z",
+    "type": "POCKET_EXTRACTION",
+    "severity": "MEDIUM",
+    "title": "Rapid Pocket / Bag Removal",
+    "details": "Light sensor and vertical jerk threshold exceeded without owner proximity handshake.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "address": "Cubbon Park Road"
+    },
+    "status": "RESOLVED",
+    "evidenceId": null
+  }
+]
