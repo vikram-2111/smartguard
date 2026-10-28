@@ -1,5 +1,251 @@
 [
   {
+    "id": "inc-1791452909643-do2xu",
+    "timestamp": "2026-10-08T09:48:29.643Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "SNATCH_AND_RUN",
+    "severity": "CRITICAL",
+    "title": "🚨 Violent Snatch-and-Run Detected",
+    "details": "AI Kinetic Model detected high G-force acceleration (3.32G) characteristic of sudden snatching.",
+    "location": {
+      "latitude": 17.563950848651128,
+      "longitude": 78.44507037414434,
+      "accuracy": 76,
+      "address": "Current Verified GPS Location"
+    }
+  },
+  {
+    "id": "inc-1791452897066-85q5g",
+    "timestamp": "2026-10-08T09:48:17.066Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "PANIC_SOS",
+    "severity": "CRITICAL",
+    "title": "🆘 Emergency SOS Beacon Activated",
+    "details": "Owner or automated fail-safe triggered silent panic beacon with live GPS broadcast.",
+    "location": {
+      "latitude": 17.563950848651128,
+      "longitude": 78.44507037414434,
+      "accuracy": 76,
+      "address": "Current Verified GPS Location"
+    }
+  },
+  {
+    "id": "inc-1791446990584-nbwq1",
+    "timestamp": "2026-10-08T08:09:50.584Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "PANIC_SOS",
+    "severity": "CRITICAL",
+    "title": "🆘 Emergency SOS Beacon Activated",
+    "details": "Owner or automated fail-safe triggered silent panic beacon with live GPS broadcast.",
+    "location": {
+      "latitude": 17.563940832225825,
+      "longitude": 78.4450723249645,
+      "accuracy": 74,
+      "address": "Current Verified GPS Location"
+    }
+  },
+  {
+    "id": "inc-1791446972603-rywzk",
+    "timestamp": "2026-10-08T08:09:32.603Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "SNATCH_AND_RUN",
+    "severity": "CRITICAL",
+    "title": "🚨 Violent Snatch-and-Run Detected",
+    "details": "AI Kinetic Model detected high G-force acceleration (3.32G) characteristic of sudden snatching.",
+    "location": {
+      "latitude": 17.563940832225825,
+      "longitude": 78.4450723249645,
+      "accuracy": 74,
+      "address": "Current Verified GPS Location"
+    }
+  },
+  {
+    "id": "inc-1791446945202-rjzvt",
+    "timestamp": "2026-10-08T08:09:05.202Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "PANIC_SOS",
+    "severity": "CRITICAL",
+    "title": "🆘 Emergency SOS Beacon Activated",
+    "details": "Owner or automated fail-safe triggered silent panic beacon with live GPS broadcast.",
+    "location": {
+      "latitude": 17.563940832225825,
+      "longitude": 78.4450723249645,
+      "accuracy": 74,
+      "address": "Current Verified GPS Location"
+    }
+  },
+  {
+    "id": "inc-1791444390196-lnuc6",
+    "timestamp": "2026-10-08T07:26:30.196Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "REMOTE_LOCK_DISPATCH",
+    "severity": "INFO",
+    "title": "🔒 Remote Lockdown Enforced",
+    "details": "Command center remotely initiated immediate screen lock down.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    }
+  },
+  {
+    "id": "inc-1791444344831-qu7s0",
+    "timestamp": "2026-10-08T07:25:44.831Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "MANUAL_INSPECTION_CAPTURE",
+    "severity": "MEDIUM",
+    "title": "Security Anomaly",
+    "details": "Suspicious activity logged by SmartGuard.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    },
+    "evidenceId": "ev-1791444344825",
+    "imageUrl": "/evidence/intruder_1791444344777_el3l.jpg"
+  },
+  {
+    "id": "inc-1791444319591-i4vi6",
+    "timestamp": "2026-10-08T07:25:19.591Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "MANUAL_INSPECTION_CAPTURE",
+    "severity": "MEDIUM",
+    "title": "Security Anomaly",
+    "details": "Suspicious activity logged by SmartGuard.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    },
+    "evidenceId": "ev-1791444319586",
+    "imageUrl": "/evidence/intruder_1791444319578_n8x0.jpg"
+  },
+  {
+    "id": "inc-1791444272506-dscd4",
+    "timestamp": "2026-10-08T07:24:32.506Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "PANIC_SOS",
+    "severity": "CRITICAL",
+    "title": "🆘 Emergency SOS Beacon Activated",
+    "details": "Owner or automated fail-safe triggered silent panic beacon with live GPS broadcast.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    }
+  },
+  {
+    "id": "inc-1791444264580-d43i8",
+    "timestamp": "2026-10-08T07:24:24.580Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "PANIC_SOS",
+    "severity": "CRITICAL",
+    "title": "🆘 Emergency SOS Beacon Activated",
+    "details": "Owner or automated fail-safe triggered silent panic beacon with live GPS broadcast.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    }
+  },
+  {
+    "id": "inc-1791443943859-r4dcu",
+    "timestamp": "2026-10-08T07:19:03.859Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "MANUAL_INSPECTION_CAPTURE",
+    "severity": "MEDIUM",
+    "title": "Security Anomaly",
+    "details": "Suspicious activity logged by SmartGuard.",
+    "location": {
+      "latitude": 17.56394273275249,
+      "longitude": 78.44506771943637,
+      "accuracy": 73,
+      "address": "Current Verified GPS Location"
+    },
+    "evidenceId": "ev-1791443943848",
+    "imageUrl": "/evidence/intruder_1791443943843_cj5h.jpg"
+  },
+  {
+    "id": "inc-1791443875859-t73lf",
+    "timestamp": "2026-10-08T07:17:55.859Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "GEOFENCE_BREACH",
+    "severity": "CRITICAL",
+    "title": "📍 Safe Perimeter Breached",
+    "details": "GEOFENCE VIOLATION: Device has exited safe perimeter 'Central Tech Zone'. Distance: 518725m (exceeded by 518325m).",
+    "location": {
+      "latitude": 17.56394273275249,
+      "longitude": 78.44506771943637,
+      "accuracy": 73,
+      "address": "Current Verified GPS Location"
+    }
+  },
+  {
+    "id": "inc-1791443850232-rxgdb",
+    "timestamp": "2026-10-08T07:17:30.232Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "PANIC_SOS",
+    "severity": "CRITICAL",
+    "title": "🆘 Emergency SOS Beacon Activated",
+    "details": "Owner or automated fail-safe triggered silent panic beacon with live GPS broadcast.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    }
+  },
+  {
+    "id": "inc-1791443844938-2etim",
+    "timestamp": "2026-10-08T07:17:24.938Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "SNATCH_AND_RUN",
+    "severity": "CRITICAL",
+    "title": "🚨 High-Speed Kinetic Snatch Detected",
+    "details": "Violent kinetic jerk detected (3.33G). High correlation with bike/pedestrian grab & snatch.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    }
+  },
+  {
+    "id": "inc-1791443844923-srnn7",
+    "timestamp": "2026-10-08T07:17:24.923Z",
+    "status": "ACTIVE",
+    "deviceId": "SG-PHONE-01",
+    "type": "SNATCH_AND_RUN",
+    "severity": "CRITICAL",
+    "title": "🚨 Violent Snatch-and-Run Detected",
+    "details": "AI Kinetic Model detected high G-force acceleration (3.32G) characteristic of sudden snatching.",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    }
+  },
+  {
     "id": "inc-001",
     "deviceId": "SG-PHONE-01",
     "timestamp": "2026-10-08T05:33:40.194Z",

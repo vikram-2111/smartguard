@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "id": "ev-1791444344825",
+    "timestamp": "2026-10-08T07:25:44.825Z",
+    "deviceId": "SG-PHONE-01",
+    "imageUrl": "/evidence/intruder_1791444344777_el3l.jpg",
+    "triggerType": "MANUAL_INSPECTION_CAPTURE",
+    "threatScore": 88,
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    },
+    "deviceModel": "Mobile Device",
+    "faceDetected": true,
+    "faceConfidence": 0.98,
+    "aiAnalysis": {
+      "eyesOpen": true,
+      "threatLevel": "HIGH_RISK_INTRUDER",
+      "lighting": "NORMAL",
+      "notes": "Front camera stealth snapshot triggered upon security breach."
+    }
+  },
+  {
+    "id": "ev-1791444319586",
+    "timestamp": "2026-10-08T07:25:19.586Z",
+    "deviceId": "SG-PHONE-01",
+    "imageUrl": "/evidence/intruder_1791444319578_n8x0.jpg",
+    "triggerType": "MANUAL_INSPECTION_CAPTURE",
+    "threatScore": 88,
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "accuracy": 4,
+      "address": "Cubbon Park Road, Bangalore, KA, India"
+    },
+    "deviceModel": "Mobile Device",
+    "faceDetected": true,
+    "faceConfidence": 0.98,
+    "aiAnalysis": {
+      "eyesOpen": true,
+      "threatLevel": "HIGH_RISK_INTRUDER",
+      "lighting": "NORMAL",
+      "notes": "Front camera stealth snapshot triggered upon security breach."
+    }
+  },
+  {
+    "id": "ev-1791443943848",
+    "timestamp": "2026-10-08T07:19:03.849Z",
+    "deviceId": "SG-PHONE-01",
+    "imageUrl": "/evidence/intruder_1791443943843_cj5h.jpg",
+    "triggerType": "MANUAL_INSPECTION_CAPTURE",
+    "threatScore": 88,
+    "location": {
+      "latitude": 17.56394273275249,
+      "longitude": 78.44506771943637,
+      "accuracy": 73,
+      "address": "Current Verified GPS Location"
+    },
+    "deviceModel": "Mobile Device",
+    "faceDetected": true,
+    "faceConfidence": 0.98,
+    "aiAnalysis": {
+      "eyesOpen": true,
+      "threatLevel": "HIGH_RISK_INTRUDER",
+      "lighting": "NORMAL",
+      "notes": "Front camera stealth snapshot triggered upon security breach."
+    }
+  }
+]
